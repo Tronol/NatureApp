@@ -59,10 +59,9 @@ fun CardNature(imageUrl: String, header: String, textstr: String) {
 @Composable
 fun CardNaturePreview() {
     NatureAppTheme {
-        // Ejemplo usando una URL de imagen pública
-        CardNature(imageUrl = "https://upload.wikimedia.org/wikipedia/commons/9/9f/Amazona_parrots_collage.jpg",
-            "Amazonas",
-            "La Selva Amazónica es la mayor selva tropical del mundo, conocida por su increíble biodiversidad y su papel crucial en la regulación del clima global."
+        CardNature(imageUrl = "https://cdn.pixabay.com/photo/2024/09/05/08/24/mountain-9024209_1280.jpg",
+            "Muncho Lake Canada",
+            "Este pintoresco lago se extiende aproximadamente 12 kilómetros (alrededor de 7.5 millas) y es conocido por su notable color verde jade, que se debe a la oxidación de cobre que se filtra de la roca circundante."
         )
     }
 }
